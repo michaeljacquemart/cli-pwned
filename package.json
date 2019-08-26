@@ -1,6 +1,9 @@
 {
-  "name": "holidates",
+  "name": "@michaeljacquemart/holidate",
   "version": "1.0.0",
+  "bin": {
+    "holidate": "./index.js"
+  },
   "description": "Command line tool that will verify the parameter is a well-formatted country name, transform it into a two-letters country code, then perform an HTTP request to the API of https://date.nager.at/, returning all the official holidays in that country.",
   "main": "index.js",
   "scripts": {
@@ -8,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaeljacquemart/cli-pwned.git"
+    "url": "git+https://github.com/michaeljacquemart/holidate.git"
   },
   "keywords": [],
   "author": "michaeljacquemart <michaeljacquemart.webdev@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaeljacquemart/cli-pwned/issues"
+    "url": "https://github.com/michaeljacquemart/holidate/issues"
   },
-  "homepage": "https://github.com/michaeljacquemart/cli-pwned#readme"
+  "homepage": "https://github.com/michaeljacquemart/holidate#readme"
 }
