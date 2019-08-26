@@ -40,10 +40,5 @@ $ npm i @michaeljacquemart/holidate
 
 ```
 
-In the current folder, use
-
-```
-$ npm link
-```
 
 You are ready to go !
