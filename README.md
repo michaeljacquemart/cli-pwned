@@ -36,7 +36,7 @@ $ holidate country [year]
 run the following command line ;
 
 ```
-npm -install michaeljacquemart/holidate
+$ npm i @michaeljacquemart/holidate
 
 ```
 
