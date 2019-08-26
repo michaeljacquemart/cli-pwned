@@ -6,15 +6,15 @@ Command line tool that will verify the given parameter is a well-formatted count
 $ holidate country [year]
 ```
 
-([ ] indicates that the argument is optional, the default value beeing the current year)
+[ ] indicates that the argument is optional, the default value beeing the current year.
 
 
 
-## install
+# Install
 ### Node.js and npm
  Simply go to the official [Node.JS website](https://nodejs.org/en/) and follow the instructions (for Ubuntu/Debian, the instructions are [here](https://github.com/nodesource/distributions/blob/master/README.md)).
 
-### npm packages to use
+### npm packages
 
 [country-list](https://www.npmjs.com/package/country-list), to convert the country name onto a country code
 [axios](https://www.npmjs.com/package/axios), to perform HTTP requests
@@ -30,7 +30,7 @@ $ holidate country [year]
 
 
 
-
+### And finally...
 
 
 run the following command line ;
