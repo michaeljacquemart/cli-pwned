@@ -27,7 +27,7 @@ async function getHolidays( country_code, year) {
       console.log("\n");
       
       response.data.forEach(holiday => {
-          console.log(holiday.name,"(",holiday.date,")");
+          console.log(holiday.date,"-",holiday.name);
       });
     } catch (error) {
       console.error(error);
