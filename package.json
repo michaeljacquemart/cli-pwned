@@ -1,0 +1,20 @@
+{
+  "name": "holidates",
+  "version": "1.0.0",
+  "description": "Command line tool that will verify the parameter is a well-formatted country name, transform it into a two-letters country code, then perform an HTTP request to the API of https://date.nager.at/, returning all the official holidays in that country.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljacquemart/cli-pwned.git"
+  },
+  "keywords": [],
+  "author": "michaeljacquemart <michaeljacquemart.webdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeljacquemart/cli-pwned/issues"
+  },
+  "homepage": "https://github.com/michaeljacquemart/cli-pwned#readme"
+}
