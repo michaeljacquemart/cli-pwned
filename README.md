@@ -11,6 +11,26 @@ $ holidate country [year]
 
 
 ## install
+### Node.js and npm
+ Simply go to the official [Node.JS website](https://nodejs.org/en/) and follow the instructions (for Ubuntu/Debian, the instructions are [here](https://github.com/nodesource/distributions/blob/master/README.md)).
+
+### npm packages to use
+
+[country-list](https://www.npmjs.com/package/country-list), to convert the country name onto a country code
+[axios](https://www.npmjs.com/package/axios), to perform HTTP requests
+[chalk](https://www.npmjs.com/package/chalk), to add some colors in your terminal
+[figlet](https://www.npmjs.com/package/figlet), add some style to your terminal
+
+
+
+
+
+
+
+
+
+
+
 
 
 run the following command line ;
