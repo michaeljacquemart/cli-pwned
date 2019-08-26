@@ -1,2 +1,3 @@
-# cli-nager
-Command line tool that will take an email address as parameter and will verify that the parameter is well-formatted before checking if that address has been compromised in a data breach with the help of an external API.
+# holidate
+
+Command line tool that will verify the parameter is a well-formatted country name, transform it into a two-letters country code, then perform an HTTP request to the API of https://date.nager.at/, returning all the official holidays in that country.
