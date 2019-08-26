@@ -6,7 +6,18 @@ Command line tool that will verify the given parameter is a well-formatted count
 $ holidate country [year]
 ```
 
-([] indicates that the argument is optional, the default value beeing the current year)
+([ ] indicates that the argument is optional, the default value beeing the current year)
 
 
 
+## install
+
+
+run the following command line ;
+
+```
+npm -install michaeljacquemart/holidate
+
+```
+
+You are ready to go !
