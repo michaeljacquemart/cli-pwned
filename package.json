@@ -1,9 +1,6 @@
 {
   "name": "@michaeljacquemart/holidate",
   "version": "1.0.0",
-  "bin": {
-    "holidate": "./index.js"
-  },
   "description": "Command line tool that will verify the parameter is a well-formatted country name, transform it into a two-letters country code, then perform an HTTP request to the API of https://date.nager.at/, returning all the official holidays in that country.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +13,10 @@
   "keywords": [],
   "author": "michaeljacquemart <michaeljacquemart.webdev@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "holidate": "./index.js"
+  },
+
   "bugs": {
     "url": "https://github.com/michaeljacquemart/holidate/issues"
   },
