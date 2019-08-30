@@ -12,20 +12,12 @@ $ npx @michaeljacquemart/holidate [country] [year]
 
 # Install
 
-### Node.js and npm
+### Prerequisites : Node.js and npm
 
  Simply go to the official [Node.JS website](https://nodejs.org/en/) and follow the instructions (for Ubuntu/Debian, the instructions are [here](https://github.com/nodesource/distributions/blob/master/README.md)).
 
- ### Package
 
-run the following command line ;
-
-```
-$ npm i @michaeljacquemart/holidate
-
-```
-
-### used npm packages
+### used npm packages (you don't have to manually install them)
 
 [country-list](https://www.npmjs.com/package/country-list), to convert the country name onto a country code
 
@@ -36,7 +28,15 @@ $ npm i @michaeljacquemart/holidate
 [figlet](https://www.npmjs.com/package/figlet), add some style to your terminal
 
 
+And finally...
 
+
+run the following command line ;
+
+```
+$ npm i @michaeljacquemart/holidate
+
+```
 
 
 
