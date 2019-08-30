@@ -3,7 +3,7 @@
 Command line tool that will verify the given parameter is a well-formatted country name, transform it into a two-letters country code, then perform an HTTP request to the API of the nager.date service, returning all official holidays in that country. You can add the year as a second parameter to the command line, as such ;
 
 ```
-$ holidate country [year]
+$ npx @michaeljacquemart/holidate [country] [year]
 ```
 
 [ ] indicates that the argument is optional. The default value is the current year.
@@ -11,11 +11,21 @@ $ holidate country [year]
 
 
 # Install
+
 ### Node.js and npm
 
  Simply go to the official [Node.JS website](https://nodejs.org/en/) and follow the instructions (for Ubuntu/Debian, the instructions are [here](https://github.com/nodesource/distributions/blob/master/README.md)).
 
-### npm packages
+ ### Package
+
+run the following command line ;
+
+```
+$ npm i @michaeljacquemart/holidate
+
+```
+
+### used npm packages
 
 [country-list](https://www.npmjs.com/package/country-list), to convert the country name onto a country code
 
@@ -30,20 +40,4 @@ $ holidate country [year]
 
 
 
-
-
-
-
-
-### And finally...
-
-
-run the following command line ;
-
-```
-$ npm i @michaeljacquemart/holidate
-
-```
-
-
-You are ready to go !
+...You are ready to go !
