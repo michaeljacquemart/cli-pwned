@@ -6,7 +6,7 @@ Command line tool that will verify the given parameter is a well-formatted count
 $ holidate country [year]
 ```
 
-[ ] indicates that the argument is optional. The default value beeing the current year.
+[ ] indicates that the argument is optional. The default value is the current year.
 
 
 
