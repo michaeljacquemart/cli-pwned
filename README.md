@@ -28,7 +28,7 @@ $ npx @michaeljacquemart/holidate [country] [year]
 [figlet](https://www.npmjs.com/package/figlet), add some style to your terminal
 
 
-And finally...
+### And finally...
 
 
 run the following command line ;
