@@ -39,7 +39,7 @@ async function getHolidays( country_code, year) {
 
  init();
 
- console.log('Use : holidate country [year]');
+ console.log('Use : npx @michaeljacquemart/holidate country [year]');
  console.log('([] indicates that the argument is optional, the default value is the current year)');
 
 
